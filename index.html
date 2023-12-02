@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <title>
+      Zerodha - Online stock trading at lowest prices from India's biggest stock
+      broker
+    </title>    
+  </head>
+  <body>
+    <div>
+      <table
+        style="
+          width: 100%;
+          border-spacing: 17px;
+          border-bottom: 1px solid rgb(222, 222, 222, 0.4);
+        "
+      >
+        <tr>
+          <th>
+            <img src="Resources/logo.svg" width="130" style="cursor: pointer;" />
+          </th>
+          <th style="padding-right: 200px"></th>
+          <td id = "signup"
+            style="
+              font-family: sans-serif;
+              font-weight: 500;
+              font-size: 0.9em;
+              cursor: pointer;
+              color: #767676;
+            "
+            onmouseover="changetextcolor('signup','#387ed1')"
+            onmouseout="changetextcolor('signup','#767676')"
+          >
+            Signup
+          </td>
+          <td id = "about"
+            style="
+              font-family: sans-serif;
+              font-weight: 500;
+              font-size: 0.9em;
+              cursor: pointer;
+              color: #767676;
+            "
+             onmouseover="changetextcolor('about','#387ed1')"
+             onmouseout="changetextcolor('about','#767676')"
+          >
+            About
+          </td>
+          <td id = "products"
+            style="
+              font-family: sans-serif;
+              font-weight: 500;
+              font-size: 0.9em;
+              cursor: pointer;
+              color: #767676;
+            "
+             onmouseover="changetextcolor('products','#387ed1')"
+             onmouseout="changetextcolor('products','#767676')"
+          >
+            Products
+          </td>
+          <td id = "pricing"
+            style="
+              font-family: sans-serif;
+              font-weight: 500;
+              font-size: 0.9em;
+              cursor: pointer;
+              color: #767676;
+            "
+             onmouseover="changetextcolor('pricing','#387ed1')"
+             onmouseout="changetextcolor('pricing','#767676')"
+          >
+            Pricing
+          </td>
+          <td id = "support"
+            style="
+              font-family: sans-serif;
+              font-weight: 500;
+              font-size: 0.9em;
+              cursor: pointer;
+              color: #767676;
+            "
+             onmouseover="changetextcolor('support','#387ed1')"
+             onmouseout="changetextcolor('support','#767676')"
+          >
+            Support
+          </td>
+          <td style="cursor: pointer">
+            <img src="Resources/hamburger.png" width="20px" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <br />
+      <center>
+        <img src="Resources/landing.png" width="670" />
+      </center>
+    </div>
+    <div>
+      <h1
+        style="
+          font-family: sans-serif;
+          color: #434341;
+          font-size: 3em;
+          font-weight: 540;
+          text-align: center;
+        "
+      >
+        Invest in everything
+      </h1>
+      </div>
+      <div>
+      <h2
+        style="
+          font-family: sans-serif;
+          font-size: 1.3em;
+          font-weight: 540;
+          color: #494a3e;
+          text-align: center;          
+        "
+      >
+        Online platform to invest in stocks, derivatives, mutual funds, and more
+      </h2>
+    </div>
+
+    <br>
+
+    <div style="display: flex; justify-content: center;">
+      <div id = "buttondiv" 
+        style="
+          background-color: #387ed1;
+          padding-top: 10px;
+          padding-left: 30px;
+          padding-bottom: 10px;
+          padding-right: 30px;
+          font-family: sans-serif;
+          cursor: pointer;
+          color: white;
+          border-radius: 3px;
+        "
+        onmouseover="buttoncolorchange('buttondiv','#222222')"
+        onmouseout="buttoncolorchange('buttondiv','#387ed1')"
+        
+      >
+        Sign up now
+      </div>
+    </center>
+
+    <script>
+      function buttoncolorchange(id, bg){        
+        document.getElementById(id).style.backgroundColor = bg;        
+      }
+
+      function changetextcolor(id, bg){
+        document.getElementById(id).style.color = bg;
+      }
+    </script>
+
+  </body>
+</html>
