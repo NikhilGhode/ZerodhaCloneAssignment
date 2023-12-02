@@ -9,14 +9,10 @@ This repository highlights my assignment from the 0-100 Cohort, specifically foc
 
 The project is constructed utilizing the following technology stack:
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Html5][HTML]][Html-url]
+* [![CSS5][CSS]][Css-url]
+* [![JavaScript5][JavaScript]][javascript-url]
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
