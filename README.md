@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://google.com)
+[![Product Name Screen Shot][product-screenshot]](https://nikhilghode.github.io/ZerodhaCloneAssignment/)
 
 This repository highlights my assignment from the 0-100 Cohort, specifically focusing on a Simple Zerodha Clone website.
 
